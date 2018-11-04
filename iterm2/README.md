@@ -1,4 +1,10 @@
-# iterm2
+<div align="center">
+
+  [![iterm2](./iterm2.png)](https://iterm2.com/)
+
+  # iterm2
+
+</div>
 
 ## colors
 
