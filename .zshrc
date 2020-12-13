@@ -8,6 +8,7 @@ export ZSH="/Users/jorgeepc/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+#ZSH_THEME="robbyrussell"
 ZSH_THEME="agnoster"
 
 # Set list of themes to pick from when loading at random
@@ -98,7 +99,29 @@ DEFAULT_USER="jorgeepc"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# folder aliases
 alias work="cd ~/projects/work"
 alias side="cd ~/projects/side"
 alias playground="cd ~/projects/playground"
 alias mamp="cd ~/projects/mamp"
+
+# npm aliases
+alias nrs="npm run start -s --";
+alias nrt="npm run test -s --";
+alias nrtc="npm run test:coverage -s --";
+alias nrtw="npm run test:watch -s --";
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+# added by travis gem
+[ -f /Users/jorgeepc/.travis/travis.sh ] && source /Users/jorgeepc/.travis/travis.sh
+[[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
