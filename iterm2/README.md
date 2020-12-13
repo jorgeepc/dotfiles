@@ -1,8 +1,8 @@
 <div align="center">
 
-  [![iterm2](./iterm2.png)](https://iterm2.com/)
+[![iterm2](./iterm2.png)](https://iterm2.com/)
 
-  # iterm2
+# iterm2
 
 </div>
 
