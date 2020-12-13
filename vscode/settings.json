@@ -1,0 +1,43 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.cursorWidth": 3,
+  "editor.letterSpacing": 0.4,
+  "editor.lineHeight": 25,
+  "editor.folding": false,
+  "editor.fontFamily": "'Dank Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.formatOnSave": true,
+  "editor.glyphMargin": false,
+  "editor.rulers": [80],
+  "editor.tabSize": 2,
+  "files.exclude": {
+    "USE_GITIGNORE": true
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.watcherExclude": {
+    "**/node_modules/": true,
+    "**/build/**": true,
+    "**/tmp/**": true
+  },
+  "javascript.suggest.autoImports": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "telemetry.enableTelemetry": false,
+  "terminal.integrated.fontFamily": "Inconsolata for Powerline",
+  "terminal.integrated.fontSize": 17,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "window.zoomLevel": 0,
+  "workbench.activityBar.visible": false,
+  "workbench.colorTheme": "Night Owl",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.suggest.showKeywords": false
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.suggest.showKeywords": false
+  }
+}
