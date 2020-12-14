@@ -25,7 +25,7 @@
   "javascript.updateImportsOnFileMove.enabled": "never",
   "telemetry.enableTelemetry": false,
   "terminal.integrated.fontFamily": "Inconsolata for Powerline",
-  "terminal.integrated.fontSize": 17,
+  "terminal.integrated.fontSize": 15,
   "typescript.updateImportsOnFileMove.enabled": "never",
   "window.zoomLevel": 0,
   "workbench.activityBar.visible": false,
